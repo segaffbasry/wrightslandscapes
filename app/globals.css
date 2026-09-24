@@ -146,3 +146,12 @@ html.lenis body {
     transform: none !important;
   }
 }
+
+/* Tailwind v4 resets buttons to the default cursor; every interactive element gets the pointer. */
+a[href],
+button:not(:disabled),
+[role="button"],
+summary,
+label[for] {
+  cursor: pointer;
+}

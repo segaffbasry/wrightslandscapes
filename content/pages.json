@@ -1,0 +1,922 @@
+{
+  "pages": [
+    {
+      "slug": "commercial-soft-landscaping",
+      "title": "Commercial Soft Landscaping Contractor | Wrights Landscapes Group",
+      "description": "Commercial soft landscaping contractor working as a subcontractor to housebuilders and main contractors. Package scope, pricing and programming across London, Hertfordshire and the South East.",
+      "h1": "Commercial soft landscaping",
+      "intro": "What a Wrights soft landscaping package covers, how it is priced, and how it is programmed against the rest of the works.",
+      "image": {
+        "src": "/images/imageA.jpeg",
+        "alt": "Large planting scheme installed by Wrights Landscapes on a commercial project"
+      },
+      "blocks": [
+        {
+          "type": "lede",
+          "html": "Soft landscaping covers the living and organic elements of a scheme — topsoil, turf, seeding, shrubs, hedges, trees and mulch — as distinct from hard landscaping, which covers paving, kerbs, walls, fencing and surfacing."
+        },
+        {
+          "type": "p",
+          "html": "Wrights Landscapes Group is a specialist soft landscaping contractor. We do not self-deliver hard landscaping, which means the package we price is the package we install, and it is priced by people who install it every week rather than by a generalist passing it down the chain."
+        },
+        {
+          "type": "h2",
+          "text": "How we price a package"
+        },
+        {
+          "type": "p",
+          "html": "We price from the landscape architect's drawings and specification, producing a bill of quantities broken down by plot, area or phase so that it can be checked line by line against the drawings and valued straightforwardly each month."
+        },
+        {
+          "type": "p",
+          "html": "Where site conditions or supplied materials differ from specification — topsoil grade against BS 3882, nursery stock sizes against BS 3936, tree pit construction against BS 8545, seed mix composition against the NBS clause — we identify it and price it before works commence rather than after. That is usually the difference between a landscape package that closes out cleanly and one that ends up in dispute at the end of the maintenance period."
+        },
+        {
+          "type": "h2",
+          "text": "How we programme"
+        },
+        {
+          "type": "p",
+          "html": "Soft landscaping sits at the end of the programme and is therefore the package most exposed to slippage upstream and to planting seasons. We work to the principal contractor's programme, flag season-critical activities early — bare-root planting windows, turf laying in high summer, seeding cut-offs — and phase works plot by plot where a development is handing over progressively."
+        },
+        {
+          "type": "h2",
+          "text": "Package scopes"
+        },
+        {
+          "type": "ul",
+          "items": [
+            {
+              "title": "Landscaping for housebuilders",
+              "href": "/housebuilder-landscaping",
+              "desc": "Plot landscaping, show homes, sales areas, communal landscaping and public open space for national and regional housebuilders."
+            },
+            {
+              "title": "Planting and tree planting",
+              "href": "/planting-and-tree-planting",
+              "desc": "Large-scale shrub planting, standard and semi-mature tree planting, tree pits, staking and establishment."
+            },
+            {
+              "title": "Turfing, seeding and wildflower",
+              "href": "/turfing-seeding-and-wildflower",
+              "desc": "Commercial turf installation, amenity seeding, wildflower turf and species-rich mixes for biodiversity net gain."
+            },
+            {
+              "title": "Grounds maintenance",
+              "href": "/grounds-maintenance",
+              "desc": "Maintenance periods, watering regimes, defect rectification and ongoing grounds maintenance contracts."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Also within scope"
+        },
+        {
+          "type": "spec",
+          "items": [
+            {
+              "title": "Podium and roof planting",
+              "html": "Planting to podium decks, roof terraces and raised structures, working with specified substrates, drainage layers and filter membranes, and coordinating with the waterproofing and irrigation packages."
+            },
+            {
+              "title": "Landscape reinstatement",
+              "html": "Reinstating landscaped areas after construction, remediation or utility works — decompaction, soil amelioration, replacement turf and planting, and re-establishment through to sign-off."
+            },
+            {
+              "title": "Topsoil and ground preparation",
+              "html": "Supply, placement, grading and amelioration of topsoil to specification, including testing where required, subsoil ripping and removal of construction arisings from planted areas."
+            },
+            {
+              "title": "Mulching, edging and bed formation",
+              "html": "Bark and composted mulch to specified depths, steel and timber edging, bed formation and weed-control fabric where specified."
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "text": "Get in touch",
+          "href": "/contact"
+        }
+      ]
+    },
+    {
+      "slug": "housebuilder-landscaping",
+      "title": "Landscaping Contractors for Housebuilders | Wrights Landscapes Group",
+      "description": "Soft landscaping subcontractor for national and regional housebuilders. Plot landscaping, show homes, communal areas and public open space across London, Hertfordshire and the South East.",
+      "h1": "Landscaping contractors for housebuilders",
+      "intro": "Plot landscaping, show homes, sales areas, communal landscaping and public open space, delivered plot by plot to a housebuilder’s handover programme.",
+      "image": {
+        "src": "/images/thirteen.jpeg",
+        "alt": "Finished soft landscaping to a new-build home on a housebuilder development"
+      },
+      "blocks": [
+        {
+          "type": "lede",
+          "html": "Wrights Landscapes Group works as a soft landscaping subcontractor to national and regional housebuilders, delivering landscaping across whole developments from first show home through to final phase handover."
+        },
+        {
+          "type": "p",
+          "html": "Housebuilder landscaping is a different discipline from one-off commercial landscaping. The work is repetitive, it is measured plot by plot, it has to fit around sales, snagging and customer care, and it is almost always the last trade on a plot before handover. We are set up for that: multiple gangs, plot-by-plot valuation, and a customer care function that responds to post-occupation issues without a separate procurement exercise each time."
+        },
+        {
+          "type": "h2",
+          "text": "What we deliver on a development"
+        },
+        {
+          "type": "spec",
+          "items": [
+            {
+              "title": "Plot landscaping",
+              "html": "Front and rear garden landscaping to individual plots: topsoil placement and grading, turfing, seeding, shrub and hedge planting, bed formation, mulching and edging, sequenced to the handover programme."
+            },
+            {
+              "title": "Show homes and sales areas",
+              "html": "Enhanced landscaping to show homes, sales suites and marketing areas, where finish standards and timescales are tighter than standard plots and the work is under public view from the day it is completed."
+            },
+            {
+              "title": "Communal and apartment landscaping",
+              "html": "Landscaping to shared courtyards, car park surrounds, bin and cycle store surrounds, entrance areas and communal gardens on apartment blocks."
+            },
+            {
+              "title": "Public open space",
+              "html": "Larger amenity areas, POS, attenuation basin and swale planting, buffer planting, structure planting and play area surrounds, usually with adoption or management company requirements attached."
+            },
+            {
+              "title": "Biodiversity and ecology works",
+              "html": "Wildflower turf and species-rich seeding, native hedgerow and whip planting, and habitat planting delivered to meet biodiversity net gain conditions and ecological clerk of works requirements."
+            },
+            {
+              "title": "Maintenance and customer care",
+              "html": "Twelve- and twenty-four-month maintenance periods, watering, replacement planting and defect rectification, plus responsive customer care visits to occupied plots."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Working to a handover programme"
+        },
+        {
+          "type": "p",
+          "html": "On a live housing development the constraint is rarely the landscaping itself — it is getting clean access to a plot in the right week, in the right season, with the levels right and the arisings gone. We plan around that: weekly plot releases, advance notice of what we need from groundworks, and honest advice about which plots should wait for a planting season rather than being turfed in August and replaced in November."
+        },
+        {
+          "type": "h2",
+          "text": "Commercial and contractual"
+        },
+        {
+          "type": "p",
+          "html": "We work on JCT and NEC subcontract forms and are familiar with application-for-payment, payment notice and pay-less notice procedures under the Construction Act. We provide plot-by-plot measurement to support monthly valuation, retention release and final account agreement."
+        },
+        {
+          "type": "cta",
+          "text": "Talk to us about a development",
+          "href": "/contact"
+        }
+      ]
+    },
+    {
+      "slug": "planting-and-tree-planting",
+      "title": "Large-Scale Planting & Commercial Tree Planting Contractors | Wrights Landscapes Group",
+      "description": "Large-scale planting and commercial tree planting contractors. Bulk shrub planting, standard and semi-mature trees, tree pits, staking and establishment across London, Hertfordshire and the South East.",
+      "h1": "Large-scale planting and commercial tree planting",
+      "intro": "Bulk shrub and hedge planting, standard and semi-mature tree planting, tree pit construction and establishment on construction projects.",
+      "image": {
+        "src": "/images/imageE.jpeg",
+        "alt": "Commercial soft landscaping and planting project in Hertfordshire"
+      },
+      "blocks": [
+        {
+          "type": "lede",
+          "html": "Wrights Landscapes Group has the labour, procurement and nursery supply network required to deliver large-scale commercial planting and tree-planting schemes to programme, including semi-mature stock and season-critical bare-root works."
+        },
+        {
+          "type": "p",
+          "html": "Volume planting is a procurement problem as much as a labour one. Getting three thousand shrubs and two hundred trees of the right species, size and form onto a site in the right week, in condition, is where these packages succeed or fail. We hold relationships with nurseries in the UK and across Europe and place orders early enough to reserve stock rather than take whatever is left in the planting season."
+        },
+        {
+          "type": "h2",
+          "text": "Scope"
+        },
+        {
+          "type": "spec",
+          "items": [
+            {
+              "title": "Shrub and herbaceous planting",
+              "html": "Bulk planting to landscape architects' schedules and setting-out drawings, including bed preparation, soil amelioration, planting to density, mulching and weed-control fabric where specified."
+            },
+            {
+              "title": "Standard and semi-mature trees",
+              "html": "Planting from light standard through to semi-mature and extra-heavy standard stock, with lifting and handling planned for access, including root-balled, containerised and bare-root supply."
+            },
+            {
+              "title": "Tree pits and support systems",
+              "html": "Tree pit excavation and construction to specification, including tree pit substrates, root barriers, aeration and irrigation systems, underground guying, above-ground staking and tying, and tree grilles or guards."
+            },
+            {
+              "title": "Hedgerow and native whip planting",
+              "html": "Native hedgerow, whip and transplant planting for boundary, screening and habitat purposes, including guards, canes and mulching, delivered within the bare-root season."
+            },
+            {
+              "title": "Structure and buffer planting",
+              "html": "Woodland edge, buffer, screening and structure planting to public open space and development margins, typically at higher densities and to ecological or planning-condition specifications."
+            },
+            {
+              "title": "Establishment and replacement",
+              "html": "Watering regimes, formative pruning, stake and tie adjustment, failure inspection and replacement planting through the defects and maintenance period."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Specification and standards"
+        },
+        {
+          "type": "p",
+          "html": "We plant to BS 8545 (trees from nursery to independence in the landscape), BS 3936 (nursery stock), BS 4428 (general landscape operations) and BS 3882 (topsoil), and to project-specific NBS clauses where these are more onerous. Where a specification cannot be met with the stock available in a given season, we say so in writing before ordering and propose an equivalent for the landscape architect's approval rather than substituting quietly."
+        },
+        {
+          "type": "h2",
+          "text": "Season"
+        },
+        {
+          "type": "p",
+          "html": "Bare-root and root-balled planting is a winter operation, broadly November to March. Container-grown stock extends the window but at higher cost and with a heavier watering liability through establishment. Where a programme pushes planting outside its proper season we will price it, but we will also set out the failure risk and the additional watering requirement so that the liability is understood by everyone before the works start."
+        },
+        {
+          "type": "cta",
+          "text": "Talk to us about a planting scheme",
+          "href": "/contact"
+        }
+      ]
+    },
+    {
+      "slug": "turfing-seeding-and-wildflower",
+      "title": "Commercial Turfing, Seeding & Wildflower Landscaping | Wrights Landscapes Group",
+      "description": "Commercial turf installation, amenity grass seeding, wildflower turf and species-rich seed mixes for biodiversity net gain, for housebuilders and main contractors across London, Hertfordshire and the South East.",
+      "h1": "Commercial turfing, seeding and wildflower",
+      "intro": "Turf installation, amenity grass seeding, wildflower turf and species-rich seeding, including full ground preparation and establishment.",
+      "image": {
+        "src": "/images/turf.jpg",
+        "alt": "Newly laid commercial turf on a Wrights Landscapes project"
+      },
+      "blocks": [
+        {
+          "type": "lede",
+          "html": "Wrights Landscapes Group provides commercial turfing, wildflower turf, amenity and species-rich seeding, and the ground preparation that determines whether any of it establishes."
+        },
+        {
+          "type": "p",
+          "html": "Most turf and seeding failures are ground preparation failures. Compacted subsoil, construction arisings left in the profile, topsoil placed too thin or too wet, or levels that pond — these show up six weeks after handover, not on the day. We price the preparation properly and record the ground conditions we take over."
+        },
+        {
+          "type": "h2",
+          "text": "Scope"
+        },
+        {
+          "type": "spec",
+          "items": [
+            {
+              "title": "Commercial turf installation",
+              "html": "Cultivated amenity turf to plots, communal areas, public open space and commercial grounds, laid to specification with joints staggered and closed, rolled and firmed, and watered in."
+            },
+            {
+              "title": "Ground preparation",
+              "html": "Subsoil ripping and decompaction, removal of construction arisings, topsoil supply, placement and grading to specified depths, stone picking, amelioration and pre-turfing fertiliser."
+            },
+            {
+              "title": "Amenity grass seeding",
+              "html": "Seeding to amenity and low-maintenance mixes for larger areas, including hydroseeding where access or gradient requires it, with establishment cuts through to sward closure."
+            },
+            {
+              "title": "Wildflower turf",
+              "html": "Wildflower turf to specified species mixes for instant establishment on biodiversity, public open space and attenuation areas where seeding timescales or slope stability make turf the better option."
+            },
+            {
+              "title": "Species-rich and biodiversity seeding",
+              "html": "Native and species-rich seed mixes to meet biodiversity net gain conditions, ecological requirements and planning conditions, sown to specified rates within the correct sowing window."
+            },
+            {
+              "title": "Establishment and aftercare",
+              "html": "Watering regimes, establishment cutting, overseeding of bare patches, weed control and replacement through the maintenance period."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Turf laid in summer"
+        },
+        {
+          "type": "p",
+          "html": "Turf laid in July and August will die without water. That is not a workmanship question, it is a physical one, and it becomes a commercial question about who is responsible for watering and who is paying for it. We set the watering liability out clearly at tender stage — who waters, how often, from what supply, and what happens if the site water is turned off — because leaving it implicit is the most common cause of argument on a landscaping package."
+        },
+        {
+          "type": "cta",
+          "text": "Talk to us about turfing or seeding",
+          "href": "/contact"
+        }
+      ]
+    },
+    {
+      "slug": "grounds-maintenance",
+      "title": "Commercial Grounds Maintenance Contractors | Wrights Landscapes Group",
+      "description": "Grounds maintenance and landscape aftercare for developments, managing agents and estates. Twelve and twenty-four month maintenance periods, watering regimes, defect rectification and replacement planting.",
+      "h1": "Grounds maintenance and landscape aftercare",
+      "intro": "Maintenance periods, watering regimes, defect rectification and ongoing grounds maintenance contracts, through our Grounds Maintenance Division.",
+      "image": {
+        "src": "/images/four.jpeg",
+        "alt": "Landscaped grounds on a completed housing development maintained by Wrights Landscapes"
+      },
+      "blocks": [
+        {
+          "type": "lede",
+          "html": "Wrights Landscapes Group operates a separate Grounds Maintenance Division covering contractual maintenance periods on our own installations and standalone grounds maintenance contracts for developments, estates and commercial sites."
+        },
+        {
+          "type": "p",
+          "html": "A landscape scheme is signed off at practical completion but judged twelve or twenty-four months later. The maintenance period is where planting either establishes or is replaced at somebody's cost, so it is worth pricing and programming as seriously as the installation."
+        },
+        {
+          "type": "h2",
+          "text": "Scope"
+        },
+        {
+          "type": "spec",
+          "items": [
+            {
+              "title": "Contractual maintenance periods",
+              "html": "Twelve- and twenty-four-month maintenance periods on installed schemes: grass cutting, watering, weeding, mulch topping up, formative pruning, stake and tie adjustment, and scheduled inspections with written records."
+            },
+            {
+              "title": "Watering regimes",
+              "html": "Programmed watering of trees, shrubs and turf through establishment, by bowser or from site supply, with visit records so that the regime can be evidenced if failures are later disputed."
+            },
+            {
+              "title": "Defect rectification and replacement",
+              "html": "Inspection for failures, identification of cause, and replacement planting to the original specification, with clear separation between establishment failure, specification failure and damage by others."
+            },
+            {
+              "title": "Ongoing grounds maintenance",
+              "html": "Scheduled maintenance contracts for completed developments, managing agents, management companies, housing associations and commercial estates: grass cutting, hedge cutting, bed maintenance, litter picking and seasonal works."
+            },
+            {
+              "title": "Customer care",
+              "html": "Responsive visits to occupied plots on housebuilder developments, dealing with landscaping items raised through customer care within the defects period."
+            },
+            {
+              "title": "Renovation and reinstatement",
+              "html": "Bringing neglected or failed landscaping back into condition: scarification, aeration, overseeding, bed clearance, replacement planting and re-mulching."
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Records"
+        },
+        {
+          "type": "p",
+          "html": "Every maintenance visit is recorded. When a tree fails eighteen months after planting, the question is always whether it was the stock, the pit, the watering or the weather. Dated visit records and photographs settle that quickly and keep it from becoming a commercial dispute at final account."
+        },
+        {
+          "type": "cta",
+          "text": "Talk to us about maintenance",
+          "href": "/contact"
+        }
+      ]
+    },
+    {
+      "slug": "projects",
+      "title": "Soft Landscaping Projects & Case Studies | Wrights Landscapes Group",
+      "description": "Commercial soft landscaping project case studies: housebuilder plot landscaping, public open space, planting schemes and maintenance contracts across London, Hertfordshire and the South East.",
+      "h1": "Projects",
+      "intro": "Soft landscaping packages delivered for housebuilders and main contractors across London, Hertfordshire and the South East.",
+      "image": {
+        "src": "/images/five.jpeg",
+        "alt": "Soft landscaping to public open space on a new-build scheme"
+      },
+      "blocks": [
+        {
+          "type": "lede",
+          "html": "Wrights Landscapes delivers soft landscaping packages across residential developments, commercial sites and public realm schemes for housebuilders and main contractors throughout London, Hertfordshire and the South East."
+        },
+        {
+          "type": "p",
+          "html": "Our work covers plot and garden landscaping on live housing developments, show homes and sales areas, communal and public open space landscaping, large-scale planting and tree planting schemes, commercial turfing and biodiversity seeding, podium and roof planting, and the maintenance periods that follow handover."
+        },
+        {
+          "type": "h2",
+          "text": "Clients"
+        },
+        {
+          "type": "p",
+          "html": "Recent and current soft landscaping works have been delivered for:"
+        },
+        {
+          "type": "clients",
+          "items": [
+            "Taylor Wimpey",
+            "The Hill Group",
+            "Croudace Homes",
+            "Fairview New Homes",
+            "RED Construction",
+            "Riney"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Assessing us for a package"
+        },
+        {
+          "type": "p",
+          "html": "If you are pricing a scheme and want comparable references, we can supply project details, values, durations and client contacts relevant to the type and scale of work you are letting. Send the drawings and specification and we will come back with both a price and the closest comparisons from our recent work."
+        },
+        {
+          "type": "cta",
+          "text": "Ask for project references",
+          "href": "/contact"
+        }
+      ],
+      "gallery": [
+        {
+          "src": "/images/six.jpeg",
+          "alt": "Soft landscaping works delivered across a residential development"
+        },
+        {
+          "src": "/images/ten.jpeg",
+          "alt": "Soft landscaping works on a new-build residential site"
+        },
+        {
+          "src": "/images/imageD.jpeg",
+          "alt": "Soft landscaping scheme delivered for a main contractor"
+        },
+        {
+          "src": "/images/two.jpeg",
+          "alt": "Commercial soft landscaping works on a construction site"
+        },
+        {
+          "src": "/images/imageB.jpeg",
+          "alt": "Completed grounds and planting on a housing development"
+        },
+        {
+          "src": "/images/seven.jpeg",
+          "alt": "Landscaping to communal areas on a housebuilder development"
+        },
+        {
+          "src": "/images/one.jpeg",
+          "alt": "Completed soft landscaping to a new-build residential development"
+        },
+        {
+          "src": "/images/nine.jpeg",
+          "alt": "Completed turfing and planting on a new-build plot"
+        },
+        {
+          "src": "/images/imageC.jpeg",
+          "alt": "Completed planting and turfing to a new-build plot"
+        }
+      ]
+    },
+    {
+      "slug": "areas-we-cover",
+      "title": "Commercial Landscaping Contractors in Hertfordshire, London & the South East | Wrights Landscapes Group",
+      "description": "Commercial soft landscaping contractors covering Hertfordshire, London, Essex, Bedfordshire, Buckinghamshire, Cambridgeshire, Northamptonshire, Kent and Surrey from a base in Stevenage.",
+      "h1": "Areas we cover",
+      "intro": "Based in Stevenage, Hertfordshire, working across London, the Home Counties and the wider South East of England.",
+      "image": {
+        "src": "/images/imageE.jpeg",
+        "alt": "Commercial soft landscaping project in Hertfordshire"
+      },
+      "blocks": [
+        {
+          "type": "lede",
+          "html": "Wrights Landscapes Group is based at 21 Finbracks, Stevenage, Hertfordshire SG1 6HB, on the A1(M) corridor. That places most of our working area within around ninety minutes of the yard."
+        },
+        {
+          "type": "cols",
+          "cols": [
+            [
+              {
+                "type": "h2",
+                "text": "Hertfordshire"
+              },
+              {
+                "type": "p",
+                "html": "Our home county. Stevenage, Hitchin, Letchworth, Baldock, Royston, Welwyn Garden City, Hatfield, St Albans, Hemel Hempstead, Watford, Hertford, Ware, Bishop's Stortford, Cheshunt, Broxbourne, Hoddesdon, Berkhamsted and Tring."
+              },
+              {
+                "type": "h2",
+                "text": "Greater London"
+              },
+              {
+                "type": "p",
+                "html": "All London boroughs, including central London sites with restricted access, delivery booking systems and out-of-hours working requirements."
+              },
+              {
+                "type": "h2",
+                "text": "Essex"
+              },
+              {
+                "type": "p",
+                "html": "Harlow, Chelmsford, Braintree, Brentwood, Basildon, Colchester, Epping and the M11 corridor."
+              }
+            ],
+            [
+              {
+                "type": "h2",
+                "text": "Bedfordshire and Buckinghamshire"
+              },
+              {
+                "type": "p",
+                "html": "Luton, Dunstable, Bedford, Biggleswade, Leighton Buzzard, Milton Keynes, Aylesbury and High Wycombe."
+              },
+              {
+                "type": "h2",
+                "text": "Cambridgeshire and Northamptonshire"
+              },
+              {
+                "type": "p",
+                "html": "Cambridge, St Neots, Huntingdon, Peterborough, Northampton, Wellingborough, Kettering and Corby."
+              },
+              {
+                "type": "h2",
+                "text": "Kent, Surrey, Sussex, Berkshire and Oxfordshire"
+              },
+              {
+                "type": "p",
+                "html": "Delivered on a project basis, typically where we are already working for a client elsewhere or where a package justifies establishing on site."
+              }
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Working further afield"
+        },
+        {
+          "type": "p",
+          "html": "We follow existing clients beyond this area where the package warrants it. If you are a housebuilder or main contractor with a site outside the region and an existing relationship with us, ask — the answer is often yes."
+        },
+        {
+          "type": "cta",
+          "text": "Ask whether we cover your site",
+          "href": "/contact"
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About Wrights Landscapes Group | Soft Landscaping Subcontractor, Stevenage",
+      "description": "Wrights Landscapes Group Ltd is a commercial soft landscaping subcontractor founded in 2016 and based in Stevenage, Hertfordshire. Constructionline Gold and CHAS accredited.",
+      "h1": "About Wrights Landscapes Group",
+      "intro": "A specialist soft landscaping subcontractor, built since 2016 around repeat work for housebuilders and main contractors.",
+      "image": {
+        "src": "/images/imageC.jpeg",
+        "alt": "Completed planting and turfing to a new-build plot by Wrights Landscapes"
+      },
+      "blocks": [
+        {
+          "type": "lede",
+          "html": "Wrights Landscapes Group Ltd is a commercial soft landscaping subcontractor based in Stevenage, Hertfordshire. The company was founded in 2016 by managing director Ed Wright and works across London, Hertfordshire and the South East of England."
+        },
+        {
+          "type": "p",
+          "html": "We install and maintain the soft landscaping element of construction projects: plot and garden landscaping on housing developments, public open space and communal landscaping, large-scale planting and tree planting, commercial turfing and seeding, podium and roof planting, and the maintenance periods that follow. We work business-to-business, as a subcontractor, and we do not undertake domestic garden work."
+        },
+        {
+          "type": "p",
+          "html": "The business has grown on repeat work. Most of what we do in a given year is for clients we worked for the year before, which is the only durable way to build a subcontracting business and the reason we would rather flag a specification problem at tender stage than discover it at final account."
+        },
+        {
+          "type": "h2",
+          "text": "How we are set up"
+        },
+        {
+          "type": "p",
+          "html": "We run our own directly employed operatives rather than working purely through labour-only supply, which is what allows us to hold multiple concurrent sites and to respond to plot releases at short notice. Procurement runs through established nursery and turf supply relationships in the UK and across Europe, which matters most when a programme calls for volume stock in a busy planting season."
+        },
+        {
+          "type": "p",
+          "html": "A separate Grounds Maintenance Division handles maintenance periods, aftercare and standalone maintenance contracts, so that establishment works are not competing for resource with installation."
+        },
+        {
+          "type": "h2",
+          "text": "Accreditation and compliance"
+        },
+        {
+          "type": "p",
+          "html": "Wrights Landscapes Group is Constructionline Gold and CHAS accredited. We work under principal contractors' site rules and CDM 2015 duties, provide project-specific RAMS, and can supply full PQQ documentation, insurance certificates, method statements and training records on request."
+        },
+        {
+          "type": "h2",
+          "text": "Company details"
+        },
+        {
+          "type": "dl",
+          "items": [
+            {
+              "dt": "Legal name",
+              "html": "Wrights Landscapes Group Ltd"
+            },
+            {
+              "dt": "Company number",
+              "html": "10492415"
+            },
+            {
+              "dt": "VAT registration",
+              "html": "GB 255 4015 25"
+            },
+            {
+              "dt": "Established",
+              "html": "2016"
+            },
+            {
+              "dt": "Managing Director",
+              "html": "Ed Wright"
+            },
+            {
+              "dt": "Head office",
+              "html": "21 Finbracks, Stevenage, Hertfordshire SG1 6HB"
+            },
+            {
+              "dt": "Trade",
+              "html": "Commercial soft landscaping subcontractor"
+            },
+            {
+              "dt": "Accreditations",
+              "html": "Constructionline Gold · CHAS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "faq",
+      "title": "Soft Landscaping FAQ | Wrights Landscapes Group",
+      "description": "Answers to common questions about Wrights Landscapes Group: what soft landscaping covers, who we work for, where we operate, accreditations, pricing and maintenance periods.",
+      "h1": "Frequently asked questions",
+      "intro": "Straight answers about what Wrights Landscapes does, who we work for and where we operate.",
+      "image": {
+        "src": "/images/eight.jpeg",
+        "alt": "Soft landscaping works in progress on a residential development"
+      },
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "Who does soft landscaping for housebuilders in Hertfordshire?",
+              "a": "Wrights Landscapes Group Ltd, based in Stevenage, is a commercial soft landscaping subcontractor working for national housebuilders and main contractors across Hertfordshire, London and the South East. The company has operated since 2016 and is Constructionline Gold and CHAS accredited."
+            },
+            {
+              "q": "Does Wrights Landscapes undertake commercial landscaping?",
+              "a": "Yes. Wrights Landscapes Group is a commercial landscaping contractor specialising in soft landscaping for the construction industry, working as a subcontractor to housebuilders and main contractors. It does not undertake domestic garden work."
+            },
+            {
+              "q": "Where does Wrights Landscapes operate?",
+              "a": "Wrights Landscapes is based in Stevenage, Hertfordshire and works throughout Hertfordshire, Greater London, Essex, Bedfordshire, Buckinghamshire, Cambridgeshire, Northamptonshire, Kent, Surrey and the wider South East of England."
+            },
+            {
+              "q": "What is soft landscaping in construction?",
+              "a": "Soft landscaping covers the living and organic elements of a scheme: topsoil, turf, seeding, shrubs, hedges, trees and mulch. It is distinct from hard landscaping, which covers paving, kerbs, walls, fencing and surfacing. On a construction project soft landscaping is usually let as a separate subcontract package towards the end of the programme."
+            },
+            {
+              "q": "What is the difference between soft and hard landscaping contractors?",
+              "a": "Soft landscaping contractors deliver planting, turfing and seeding. Hard landscaping contractors deliver paving, walling, fencing and surfacing. Many schemes let the two as separate packages. Wrights Landscapes Group specialises in soft landscaping and associated grounds maintenance."
+            },
+            {
+              "q": "Does Wrights Landscapes work with housebuilders?",
+              "a": "Yes. Wrights Landscapes undertakes plot landscaping, show homes and sales areas, communal landscaping and wider public open space landscaping for national and regional housebuilders, sequenced to the handover programme."
+            },
+            {
+              "q": "Does Wrights Landscapes work as a subcontractor to main contractors?",
+              "a": "Yes. Wrights Landscapes Group works as a subcontractor under principal contractors and housebuilders on both JCT and NEC subcontract forms, and is familiar with application-for-payment, payment notice and pay-less notice procedures under the Construction Act."
+            },
+            {
+              "q": "Can Wrights Landscapes undertake large planting schemes?",
+              "a": "Yes. Wrights Landscapes has the labour, procurement and nursery supplier network required to deliver large-scale commercial planting and tree-planting schemes, including standard and semi-mature trees, tree pit construction, staking and establishment."
+            },
+            {
+              "q": "Does Wrights Landscapes provide commercial turfing?",
+              "a": "Yes. Wrights Landscapes provides commercial turf installation, wildflower turf, amenity grass seeding, species-rich and biodiversity seeding, and the associated ground preparation and establishment works."
+            },
+            {
+              "q": "Does Wrights Landscapes carry out biodiversity net gain planting?",
+              "a": "Yes. Wrights Landscapes installs wildflower turf, species-rich and native seed mixes, native hedgerow and whip planting and habitat planting to meet biodiversity net gain conditions and ecological requirements on development sites."
+            },
+            {
+              "q": "Does Wrights Landscapes provide maintenance after practical completion?",
+              "a": "Yes. The Grounds Maintenance Division carries out twelve- and twenty-four-month maintenance periods, watering regimes, defect rectification and replacement planting, as well as standalone grounds maintenance contracts for completed developments and estates."
+            },
+            {
+              "q": "Is Wrights Landscapes Constructionline and CHAS accredited?",
+              "a": "Yes. Wrights Landscapes Group is Constructionline Gold and CHAS accredited, and can supply full PQQ documentation, RAMS, insurance certificates and method statements on request."
+            },
+            {
+              "q": "How does Wrights Landscapes price a soft landscaping package?",
+              "a": "Wrights prices from the landscape architect's drawings and specification, producing a bill of quantities broken down by plot, area or phase. Where site conditions or supplied materials fall outside specification, this is identified and priced before works commence rather than after."
+            },
+            {
+              "q": "What size projects does Wrights Landscapes take on?",
+              "a": "Soft landscaping packages across single-phase and multi-phase residential developments, commercial sites and public realm schemes, with the capacity to hold several concurrent sites."
+            },
+            {
+              "q": "Does Wrights Landscapes do domestic garden work?",
+              "a": "No. Wrights Landscapes Group works business-to-business only, as a subcontractor to housebuilders, main contractors, groundworks contractors, housing associations and estate managers."
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Anything not covered here, ask directly: <a href=\"mailto:ed@wrightslandscapes.com\">ed@wrightslandscapes.com</a> or <a href=\"tel:+447887898327\">07887 898327</a>."
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact Wrights Landscapes Group | Soft Landscaping Subcontractor, Stevenage",
+      "description": "Contact Wrights Landscapes Group, commercial soft landscaping subcontractor, 21 Finbracks, Stevenage, Hertfordshire SG1 6HB. Email ed@wrightslandscapes.com or call 07887 898327.",
+      "h1": "Contact",
+      "intro": "Send drawings and a specification and we will come back with a priced bill of quantities.",
+      "image": {
+        "src": "/images/ten.jpeg",
+        "alt": "Soft landscaping works on a new-build residential site"
+      },
+      "blocks": [
+        {
+          "type": "cols",
+          "cols": [
+            [
+              {
+                "type": "h2",
+                "text": "Enquiries"
+              },
+              {
+                "type": "p",
+                "html": "<strong>Ed Wright</strong><br/>Managing Director<br/> <a href=\"mailto:ed@wrightslandscapes.com\">ed@wrightslandscapes.com</a><br/> <a href=\"tel:+447887898327\">07887 898327</a>"
+              },
+              {
+                "type": "h2",
+                "text": "Head office"
+              },
+              {
+                "type": "p",
+                "html": "Wrights Landscapes Group Ltd<br/> 21 Finbracks<br/> Stevenage<br/> Hertfordshire SG1 6HB<br/> United Kingdom"
+              },
+              {
+                "type": "p",
+                "html": "<a href=\"https://www.google.com/maps/place/Finbracks,+Stevenage+SG1+6HB/@51.9341402,-0.1800655,17z/data=!3m1!4b1!4m5!3m4!1s0x48762e0889e2dec9:0x6d800a27992d37fc!8m2!3d51.9342414!4d-0.1776384\" rel=\"noopener\" target=\"_blank\">View on map</a>"
+              }
+            ],
+            [
+              {
+                "type": "h2",
+                "text": "Tendering with us"
+              },
+              {
+                "type": "p",
+                "html": "The quickest route to a price is drawings plus specification. Useful to include:"
+              },
+              {
+                "type": "ul",
+                "items": [
+                  {
+                    "html": "Landscape architect's general arrangement and planting drawings"
+                  },
+                  {
+                    "html": "Planting schedule and soft landscaping specification or NBS clauses"
+                  },
+                  {
+                    "html": "Programme, or at least the target period for landscaping works"
+                  },
+                  {
+                    "html": "Form of subcontract and payment terms"
+                  },
+                  {
+                    "html": "Who is providing topsoil, and to what specification"
+                  },
+                  {
+                    "html": "Who is responsible for watering during establishment"
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "html": "The last two are the items most often left undefined at tender stage and most often argued about afterwards."
+              }
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Company details"
+        },
+        {
+          "type": "dl",
+          "items": [
+            {
+              "dt": "Legal name",
+              "html": "Wrights Landscapes Group Ltd"
+            },
+            {
+              "dt": "Established",
+              "html": "2016"
+            },
+            {
+              "dt": "Head office",
+              "html": "Stevenage, Hertfordshire SG1 6HB"
+            },
+            {
+              "dt": "Trade",
+              "html": "Commercial soft landscaping subcontractor"
+            },
+            {
+              "dt": "Clients",
+              "html": "Housebuilders and main contractors (B2B only)"
+            },
+            {
+              "dt": "Coverage",
+              "html": "London, Hertfordshire and the South East"
+            },
+            {
+              "dt": "Accreditations",
+              "html": "Constructionline Gold · CHAS"
+            },
+            {
+              "dt": "Contact",
+              "html": "<a href=\"mailto:ed@wrightslandscapes.com\">ed@wrightslandscapes.com</a><br/>07887 898327"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "homeGallery": [
+    {
+      "src": "/images/accreditations.png",
+      "alt": "Constructionline Gold and CHAS accreditation marks"
+    },
+    {
+      "src": "/images/one.jpeg",
+      "alt": "Completed soft landscaping to a new-build residential development"
+    },
+    {
+      "src": "/images/two.jpeg",
+      "alt": "Soft landscaping works carried out on a commercial site"
+    },
+    {
+      "src": "/images/seven.jpeg",
+      "alt": "Landscaping to communal areas on a housebuilder development"
+    },
+    {
+      "src": "/images/imageC.jpeg",
+      "alt": "Completed planting and turfing to a new-build plot"
+    },
+    {
+      "src": "/images/imageD.jpeg",
+      "alt": "Soft landscaping scheme delivered for a main contractor"
+    },
+    {
+      "src": "/images/three.jpeg",
+      "alt": "Turfed lawn and planted borders on a completed development"
+    },
+    {
+      "src": "/images/eight.jpeg",
+      "alt": "Soft landscaping works in progress on a residential site"
+    },
+    {
+      "src": "/images/thirteen.jpeg",
+      "alt": "Finished landscaping to a new-build home"
+    },
+    {
+      "src": "/images/imageA.jpeg",
+      "alt": "Planting scheme installed on a commercial landscaping project"
+    },
+    {
+      "src": "/images/imageB.jpeg",
+      "alt": "Completed grounds and planting on a housing development"
+    },
+    {
+      "src": "/images/five.jpeg",
+      "alt": "Soft landscaping to public open space on a new-build scheme"
+    },
+    {
+      "src": "/images/six.jpeg",
+      "alt": "Landscaping works delivered across a residential development"
+    },
+    {
+      "src": "/images/nine.jpeg",
+      "alt": "Completed turfing and planting on a new-build plot"
+    },
+    {
+      "src": "/images/imageE.jpeg",
+      "alt": "Commercial soft landscaping project in Hertfordshire"
+    },
+    {
+      "src": "/images/four.jpeg",
+      "alt": "Landscaped grounds on a completed housing development"
+    },
+    {
+      "src": "/images/ten.jpeg",
+      "alt": "Soft landscaping works on a new-build residential site"
+    }
+  ]
+}

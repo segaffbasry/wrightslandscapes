@@ -1,0 +1,148 @@
+@import "tailwindcss";
+
+/*
+ * Palette is locked to four colours:
+ *   forest #173021  Wrights' own theme colour (dark sections, text on light)
+ *   lime   #e2ffc2  the reference's bright accent (text on dark, primary pill)
+ *   leaf   #648d28  Wrights' brand green, small accents only
+ *   white  #ffffff
+ * Tints are opacities of those four, never new hues.
+ */
+@theme {
+  --color-forest: #173021;
+  --color-lime: #e2ffc2;
+  --color-leaf: #648d28;
+  --color-white: #ffffff;
+
+  --font-sans: var(--font-figtree), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-playfair), Georgia, serif;
+
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+  --ease-in-out-quint: cubic-bezier(0.83, 0, 0.17, 1);
+}
+
+html {
+  background: var(--color-forest);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background: var(--color-white);
+  color: var(--color-forest);
+  font-family: var(--font-sans);
+  overflow-x: clip;
+}
+
+::selection {
+  background: var(--color-lime);
+  color: var(--color-forest);
+}
+
+/* Lenis */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis:not(.lenis-autoToggle).lenis-stopped {
+  overflow: clip;
+}
+.lenis [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+/* Page gutters, matching the reference's 2.5rem desktop / 1.25rem mobile. */
+.gutter {
+  padding-inline: 1.25rem;
+}
+@media (min-width: 1024px) {
+  .gutter {
+    padding-inline: 2.5rem;
+  }
+}
+
+/* Display face is reserved for italic accent words (hero, footer, a few headlines). */
+.accent {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+/* Type scale, taken from the reference's computed styles (h1 71px/-4%, h2 42px/-4%). */
+.t-hero {
+  font-size: clamp(2.75rem, 1.4rem + 4.6vw, 5.6rem);
+  line-height: 0.99;
+  letter-spacing: -0.04em;
+  font-weight: 400;
+}
+.t-h2 {
+  font-size: clamp(1.9rem, 1.3rem + 1.9vw, 2.9rem);
+  line-height: 1.09;
+  letter-spacing: -0.04em;
+  font-weight: 400;
+}
+.t-h3 {
+  font-size: clamp(1.35rem, 1.1rem + 0.6vw, 1.75rem);
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  font-weight: 400;
+}
+.t-label {
+  font-size: 0.8125rem;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.t-body {
+  font-size: 1.0625rem;
+  line-height: 1.55;
+  letter-spacing: -0.01em;
+}
+
+/* Rich text from the live site (links, strong, br). */
+.rich a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+  text-decoration-color: color-mix(in srgb, currentColor 35%, transparent);
+  transition: text-decoration-color 0.3s;
+}
+.rich a:hover {
+  text-decoration-color: currentColor;
+}
+.rich strong {
+  font-weight: 600;
+}
+
+/* Hero opening: lines rise out of a mask. Hidden until JS runs, visible without JS. */
+.js .line-mask > span {
+  transform: translateY(105%);
+}
+.line-mask {
+  display: block;
+  overflow: hidden;
+  padding-bottom: 0.06em;
+  margin-bottom: -0.06em;
+}
+.line-mask > span {
+  display: block;
+  will-change: transform;
+}
+
+/* Scroll reveals start hidden only when JS is present. */
+.js [data-reveal],
+.js [data-hero-fade] {
+  opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .js [data-reveal],
+  .js [data-hero-fade],
+  .js .line-mask > span {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}

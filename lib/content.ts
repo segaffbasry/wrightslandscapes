@@ -218,3 +218,27 @@ export const featured = [
     img: { src: "/images/imageA.jpeg", alt: "Planting scheme installed on a commercial landscaping project" },
   },
 ];
+
+/* Stacking photo cards on the home page: real site photos, captioned with real service page names. */
+export const stack = [
+  {
+    title: "Landscaping for housebuilders",
+    href: "/housebuilder-landscaping",
+    img: { src: "/images/imageC.jpeg", alt: "Completed planting and turfing to a new-build plot" },
+  },
+  {
+    title: "Commercial soft landscaping",
+    href: "/commercial-soft-landscaping",
+    img: { src: "/images/imageD.jpeg", alt: "Soft landscaping scheme delivered for a main contractor" },
+  },
+  {
+    title: "Turfing, seeding and wildflower",
+    href: "/turfing-seeding-and-wildflower",
+    img: { src: "/images/three.jpeg", alt: "Turfed lawn and planted borders on a completed development" },
+  },
+  {
+    title: "Grounds maintenance",
+    href: "/grounds-maintenance",
+    img: { src: "/images/seven.jpeg", alt: "Landscaping to communal areas on a housebuilder development" },
+  },
+];

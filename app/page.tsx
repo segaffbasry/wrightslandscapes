@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Gallery from "@/components/Gallery";
 import Hero from "@/components/home/Hero";
+import StackCards from "@/components/home/StackCards";
 import Media from "@/components/Media";
 import PillButton, { Arrow } from "@/components/PillButton";
 import { home, homeGallery } from "@/lib/content";
@@ -53,7 +54,7 @@ export default function HomePage() {
           </p>
           <div className="mt-16 grid gap-12 lg:mt-24 lg:grid-cols-12 lg:gap-6">
             <div className="lg:col-span-4">
-              <Media img={{ src: "/images/imageC.jpeg", alt: "Completed planting and turfing to a new-build plot" }} ratio="4 / 5" sizes="(min-width: 1024px) 33vw, 100vw" className="rounded-[4px]" />
+              <Media img={{ src: "/images/thirteen.jpeg", alt: "Finished landscaping to a new-build home" }} ratio="4 / 5" sizes="(min-width: 1024px) 33vw, 100vw" className="rounded-[4px]" />
             </div>
             <div className="flex flex-col gap-6 lg:col-span-6 lg:col-start-7 lg:self-end">
               {home.body.map((p) => (
@@ -74,7 +75,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <Band src="/images/turf.jpg" alt={home.turfAlt} caption="Turfing, seeding and wildflower" href="/turfing-seeding-and-wildflower" />
+      <StackCards />
 
       {/* What we do */}
       <section data-theme="light" className="bg-white">

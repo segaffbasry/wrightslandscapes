@@ -4,7 +4,8 @@ import { imgSize, type Img } from "@/lib/content";
 /*
  * Image with the clip-open reveal and ~10% parallax (see ScrollEffects).
  * The parallax layer is 12% taller than the frame so it never shows an edge.
- * Pass `ratio` to force a frame shape, otherwise the photo's own ratio is used.
+ * Pass `ratio` to force a frame shape, otherwise the photo's own ratio is used;
+ * `ratio="fill"` lets the parent grid cell set the size.
  */
 export default function Media({
   img,
@@ -21,9 +22,9 @@ export default function Media({
 }) {
   const [w, h] = imgSize(img.src);
   return (
-    <div data-media className={`relative overflow-hidden bg-forest ${className}`} style={{ aspectRatio: ratio ?? `${w} / ${h}` }}>
+    <div data-media className={`${ratio === "fill" ? "absolute inset-0" : "relative"} overflow-hidden bg-forest ${className}`} style={ratio === "fill" ? undefined : { aspectRatio: ratio ?? `${w} / ${h}` }}>
       <div data-parallax className="absolute inset-x-0 -top-[6%] -bottom-[6%]">
-        <Image src={img.src} alt={img.alt} fill sizes={sizes} priority={priority} className="object-cover" />
+        <Image src={img.src} alt={img.alt} fill sizes={sizes} priority={priority} className="object-cover transition-transform duration-[1.2s] ease-[var(--ease-out-quart)] group-hover:scale-[1.04]" />
       </div>
     </div>
   );

@@ -86,6 +86,12 @@ export default function Footer() {
 
         <p className="mt-16 max-w-[60rem] text-[12px] leading-relaxed text-lime/50">{contact.smallprint}</p>
       </div>
+      <p
+        aria-hidden
+        className="-mb-[0.18em] text-center text-[26.5vw] leading-[0.8] font-normal tracking-[-0.06em] whitespace-nowrap text-lime select-none"
+      >
+        Wrights
+      </p>
     </footer>
   );
 }

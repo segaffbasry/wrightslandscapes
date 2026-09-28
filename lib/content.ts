@@ -198,47 +198,27 @@ export const home = {
 };
 
 /*
- * Featured panels in the hero. Each is a real scope heading from the live
- * site, paired with a real photo and linking to its rebuilt service page.
+ * Home services list: the live site's menu labels, each page's own intro line
+ * and a real photo shown as the hover preview.
  */
-export const featured = [
-  {
-    title: "Landscaping for housebuilders",
-    href: "/housebuilder-landscaping",
-    img: { src: "/images/imageB.jpeg", alt: "Completed grounds and planting on a housing development" },
-  },
-  {
-    title: "Podium, roof and structural planting",
-    href: "/commercial-soft-landscaping",
-    img: { src: "/images/indoor.jpg", alt: "Structural planting installed by Wrights Landscapes" },
-  },
-  {
-    title: "Planting and tree planting",
-    href: "/planting-and-tree-planting",
-    img: { src: "/images/imageA.jpeg", alt: "Planting scheme installed on a commercial landscaping project" },
-  },
-];
+const serviceImages: Record<string, Img> = {
+  "/commercial-soft-landscaping": { src: "/images/imageA.jpeg", alt: "Large planting scheme installed by Wrights Landscapes on a commercial project" },
+  "/housebuilder-landscaping": { src: "/images/thirteen.jpeg", alt: "Finished soft landscaping to a new-build home on a housebuilder development" },
+  "/planting-and-tree-planting": { src: "/images/imageE.jpeg", alt: "Commercial soft landscaping and planting project in Hertfordshire" },
+  "/turfing-seeding-and-wildflower": { src: "/images/seven.jpeg", alt: "Landscaping to communal areas on a housebuilder development" },
+  "/grounds-maintenance": { src: "/images/imageC.jpeg", alt: "Completed planting and turfing to a new-build plot" },
+};
 
-/* Stacking photo cards on the home page: real site photos, captioned with real service page names. */
-export const stack = [
-  {
-    title: "Landscaping for housebuilders",
-    href: "/housebuilder-landscaping",
-    img: { src: "/images/imageC.jpeg", alt: "Completed planting and turfing to a new-build plot" },
-  },
-  {
-    title: "Commercial soft landscaping",
-    href: "/commercial-soft-landscaping",
-    img: { src: "/images/imageD.jpeg", alt: "Soft landscaping scheme delivered for a main contractor" },
-  },
-  {
-    title: "Turfing, seeding and wildflower",
-    href: "/turfing-seeding-and-wildflower",
-    img: { src: "/images/three.jpeg", alt: "Turfed lawn and planted borders on a completed development" },
-  },
-  {
-    title: "Grounds maintenance",
-    href: "/grounds-maintenance",
-    img: { src: "/images/seven.jpeg", alt: "Landscaping to communal areas on a housebuilder development" },
-  },
+export const services = nav.services.map((s) => ({
+  ...s,
+  intro: getPage(s.href.slice(1))!.intro,
+  img: serviceImages[s.href],
+}));
+
+/* Compact project showcase on the home page (the full gallery lives on /projects). */
+export const showcase: Img[] = [
+  { src: "/images/imageB.jpeg", alt: "Completed grounds and planting on a housing development" },
+  { src: "/images/indoor.jpg", alt: "Structural planting installed by Wrights Landscapes" },
+  { src: "/images/three.jpeg", alt: "Turfed lawn and planted borders on a completed development" },
+  { src: "/images/imageD.jpeg", alt: "Soft landscaping scheme delivered for a main contractor" },
 ];

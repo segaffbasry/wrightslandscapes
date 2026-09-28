@@ -1,11 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
-import Gallery from "@/components/Gallery";
 import Hero from "@/components/home/Hero";
-import StackCards from "@/components/home/StackCards";
+import Services from "@/components/home/Services";
 import Media from "@/components/Media";
 import PillButton, { Arrow } from "@/components/PillButton";
-import { home, homeGallery } from "@/lib/content";
+import { home, showcase } from "@/lib/content";
 
 const idx = (i: number) => `(${String(i + 1).padStart(2, "0")})`;
 
@@ -20,20 +19,38 @@ function Label({ children, dark }: { children: string; dark?: boolean }) {
   );
 }
 
-/* A full-bleed photo band between sections, as the reference does between its white blocks. */
-function Band({ src, alt, caption, href }: { src: string; alt: string; caption: string; href?: string }) {
+/*
+ * Compact project showcase: one screen of real photos in a bento grid, with the
+ * full gallery a click away on /projects instead of a long scroll here.
+ */
+function Showcase() {
+  const cells = ["col-span-2 row-span-2", "col-span-2", "", ""];
   return (
-    <section data-theme="dark" className="relative">
-      <Media img={{ src, alt }} ratio="16 / 8" className="max-h-[92svh] w-full" />
-      <div className="gutter absolute inset-x-0 bottom-0 flex items-center justify-between bg-forest/85 py-3 text-lime backdrop-blur-sm">
-        {href ? (
-          <Link href={href} className="t-label flex items-center gap-2 hover:opacity-70">
-            {caption}. <Arrow />
-          </Link>
-        ) : (
-          <span className="t-label">{caption}.</span>
-        )}
-        <span className="t-label">(Wrights)</span>
+    <section data-theme="light" className="bg-white">
+      <div className="gutter py-24 lg:py-36">
+        <div className="mb-12 grid gap-8 lg:mb-16 lg:grid-cols-12 lg:items-end lg:gap-6">
+          <div className="lg:col-span-8">
+            <p data-reveal className="t-label mb-6 text-forest/60">
+              (Projects)
+            </p>
+            <h2 data-reveal className="t-h2 max-w-[46rem]">
+              Soft landscaping packages delivered for <span className="accent">housebuilders and main contractors</span> across
+              London, Hertfordshire and the South East.
+            </h2>
+          </div>
+          <div data-reveal className="lg:col-span-4 lg:justify-self-end">
+            <PillButton href="/projects" variant="forest">
+              Ask for project references
+            </PillButton>
+          </div>
+        </div>
+        <div className="grid auto-rows-[42vw] grid-cols-2 gap-3 md:auto-rows-auto md:grid-cols-4 md:grid-rows-2 md:gap-4 md:h-[min(76svh,720px)]">
+          {showcase.slice(0, 4).map((img, i) => (
+            <Link key={img.src} href="/projects" className={`group relative ${cells[i]}`} aria-label={img.alt}>
+              <Media img={img} ratio="fill" sizes={i === 0 ? "50vw" : "25vw"} className="rounded-[4px]" />
+            </Link>
+          ))}
+        </div>
       </div>
     </section>
   );
@@ -44,6 +61,7 @@ export default function HomePage() {
   return (
     <>
       <Hero />
+      <Services />
 
       {/* Who we are */}
       <section data-theme="light" className="bg-white">
@@ -75,7 +93,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      <StackCards />
 
       {/* What we do */}
       <section data-theme="light" className="bg-white">
@@ -141,7 +158,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <Band src="/images/indoor.jpg" alt="Structural planting installed by Wrights Landscapes" caption="Podium, roof and structural planting" href="/commercial-soft-landscaping" />
+      <Showcase />
 
       {/* Clients */}
       <section data-theme="light" className="bg-white">
@@ -208,12 +225,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Project gallery: the live home page's full set of photos */}
-      <section data-theme="light" className="bg-white">
-        <div className="gutter pb-24 lg:pb-36">
-          <Gallery images={homeGallery} />
-        </div>
-      </section>
     </>
   );
 }

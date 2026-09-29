@@ -202,23 +202,27 @@ export const home = {
  * and a real photo shown as the hover preview.
  */
 const serviceImages: Record<string, Img> = {
-  "/commercial-soft-landscaping": { src: "/images/imageA.jpeg", alt: "Large planting scheme installed by Wrights Landscapes on a commercial project" },
-  "/housebuilder-landscaping": { src: "/images/thirteen.jpeg", alt: "Finished soft landscaping to a new-build home on a housebuilder development" },
-  "/planting-and-tree-planting": { src: "/images/imageE.jpeg", alt: "Commercial soft landscaping and planting project in Hertfordshire" },
-  "/turfing-seeding-and-wildflower": { src: "/images/seven.jpeg", alt: "Landscaping to communal areas on a housebuilder development" },
+  "/commercial-soft-landscaping": { src: "/images/indoor.jpg", alt: "Structural planting installed by Wrights Landscapes" },
+  "/housebuilder-landscaping": { src: "/images/imageB.jpeg", alt: "Completed grounds and planting on a housing development" },
+  "/planting-and-tree-planting": { src: "/images/imageA.jpeg", alt: "Planting scheme installed on a commercial landscaping project" },
+  "/turfing-seeding-and-wildflower": { src: "/images/three.jpeg", alt: "Turfed lawn and planted borders on a completed development" },
   "/grounds-maintenance": { src: "/images/imageC.jpeg", alt: "Completed planting and turfing to a new-build plot" },
 };
-
 export const services = nav.services.map((s) => ({
   ...s,
   intro: getPage(s.href.slice(1))!.intro,
   img: serviceImages[s.href],
 }));
 
-/* Compact project showcase on the home page (the full gallery lives on /projects). */
-export const showcase: Img[] = [
-  { src: "/images/imageB.jpeg", alt: "Completed grounds and planting on a housing development" },
-  { src: "/images/indoor.jpg", alt: "Structural planting installed by Wrights Landscapes" },
-  { src: "/images/three.jpeg", alt: "Turfed lawn and planted borders on a completed development" },
+/* Hero filmstrip: every real project photo from the live site. */
+export const filmstrip: Img[] = homeGallery;
+
+/* A real photo for each "What we do" scope, in the same order. */
+export const whatWeDoImages: Img[] = [
+  { src: "/images/nine.jpeg", alt: "Completed turfing and planting on a new-build plot" },
+  { src: "/images/five.jpeg", alt: "Soft landscaping to public open space on a new-build scheme" },
+  { src: "/images/four.jpeg", alt: "Landscaped grounds on a completed housing development" },
+  { src: "/images/one.jpeg", alt: "Completed soft landscaping to a new-build residential development" },
   { src: "/images/imageD.jpeg", alt: "Soft landscaping scheme delivered for a main contractor" },
+  { src: "/images/six.jpeg", alt: "Landscaping works delivered across a residential development" },
 ];

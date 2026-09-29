@@ -1,10 +1,10 @@
 import Image from "next/image";
-import Link from "next/link";
 import Hero from "@/components/home/Hero";
 import Services from "@/components/home/Services";
 import Media from "@/components/Media";
-import PillButton, { Arrow } from "@/components/PillButton";
-import { home, showcase } from "@/lib/content";
+import PillButton from "@/components/PillButton";
+import LogoMarquee from "@/components/home/LogoMarquee";
+import { filmstrip, home, imgSize, whatWeDoImages } from "@/lib/content";
 
 const idx = (i: number) => `(${String(i + 1).padStart(2, "0")})`;
 
@@ -19,58 +19,25 @@ function Label({ children, dark }: { children: string; dark?: boolean }) {
   );
 }
 
-/*
- * Compact project showcase: one screen of real photos in a bento grid, with the
- * full gallery a click away on /projects instead of a long scroll here.
- */
-function Showcase() {
-  const cells = ["col-span-2 row-span-2", "col-span-2", "", ""];
-  return (
-    <section data-theme="light" className="bg-white">
-      <div className="gutter py-24 lg:py-36">
-        <div className="mb-12 grid gap-8 lg:mb-16 lg:grid-cols-12 lg:items-end lg:gap-6">
-          <div className="lg:col-span-8">
-            <p data-reveal className="t-label mb-6 text-forest/60">
-              (Projects)
-            </p>
-            <h2 data-reveal className="t-h2 max-w-[46rem]">
-              Soft landscaping packages delivered for <span className="accent">housebuilders and main contractors</span> across
-              London, Hertfordshire and the South East.
-            </h2>
-          </div>
-          <div data-reveal className="lg:col-span-4 lg:justify-self-end">
-            <PillButton href="/projects" variant="forest">
-              Ask for project references
-            </PillButton>
-          </div>
-        </div>
-        <div className="grid auto-rows-[42vw] grid-cols-2 gap-3 md:auto-rows-auto md:grid-cols-4 md:grid-rows-2 md:gap-4 md:h-[min(76svh,720px)]">
-          {showcase.slice(0, 4).map((img, i) => (
-            <Link key={img.src} href="/projects" className={`group relative ${cells[i]}`} aria-label={img.alt}>
-              <Media img={img} ratio="fill" sizes={i === 0 ? "50vw" : "25vw"} className="rounded-[4px]" />
-            </Link>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
 export default function HomePage() {
   const { whatWeDo, whoFor, whereWork, clients, accreditations } = home;
+  const strip = filmstrip.map((img) => {
+    const [w, h] = imgSize(img.src);
+    return { ...img, ratio: Math.max(0.7, Math.min(1.8, w / h)) };
+  });
   return (
     <>
-      <Hero />
+      <Hero h1={home.h1} tag={home.tag} strip={strip} />
       <Services />
 
       {/* Who we are */}
       <section data-theme="light" className="bg-white">
-        <div className="gutter py-24 lg:py-36">
+        <div className="gutter py-16 lg:py-24">
           <Label>About</Label>
           <p data-reveal className="t-h2 max-w-[70rem]">
             {home.lede}
           </p>
-          <div className="mt-16 grid gap-12 lg:mt-24 lg:grid-cols-12 lg:gap-6">
+          <div className="mt-12 grid gap-12 lg:mt-16 lg:grid-cols-12 lg:gap-6">
             <div className="lg:col-span-4">
               <Media img={{ src: "/images/thirteen.jpeg", alt: "Finished landscaping to a new-build home" }} ratio="4 / 5" sizes="(min-width: 1024px) 33vw, 100vw" className="rounded-[4px]" />
             </div>
@@ -96,8 +63,8 @@ export default function HomePage() {
 
       {/* What we do */}
       <section data-theme="light" className="bg-white">
-        <div className="gutter py-24 lg:py-36">
-          <div className="mb-16 grid gap-6 lg:mb-24 lg:grid-cols-12">
+        <div className="gutter py-16 lg:py-24">
+          <div className="mb-10 grid gap-6 lg:mb-14 lg:grid-cols-12">
             <h2 data-reveal className="t-hero lg:col-span-6">
               What we <span className="accent">do</span>
             </h2>
@@ -107,8 +74,11 @@ export default function HomePage() {
           </div>
           <div className="grid gap-x-6 md:grid-cols-2 lg:grid-cols-3">
             {whatWeDo.items.map((it, i) => (
-              <article key={it.title} data-reveal data-delay={String((i % 3) * 0.08)} className="flex flex-col border-t border-forest/15 pt-6 pb-14">
-                <p className="t-label mb-10 text-leaf">{idx(i)}</p>
+              <article key={it.title} data-reveal data-delay={String((i % 3) * 0.08)} className="flex flex-col pb-12">
+                <div className="group relative mb-6">
+                  <Media img={whatWeDoImages[i]} ratio="3 / 2" sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" className="rounded-[4px]" />
+                  <span className="t-label absolute top-3 left-3 rounded-full bg-white/85 px-3 py-1.5 text-forest backdrop-blur-sm">{idx(i)}</span>
+                </div>
                 <h3 className="t-h3 mb-4">{it.title}</h3>
                 <p className="t-body mb-8 text-forest/70">{it.text}</p>
                 {it.link && (
@@ -124,29 +94,32 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Who we work for / Where we work */}
+      {/* Who we work for / Where we work: photo and text side by side */}
       <section data-theme="dark" className="bg-forest text-lime">
-        <div className="gutter py-24 lg:py-36">
-          <Label dark>{whoFor.h2}</Label>
-          <p data-reveal className="t-h2 mb-16 max-w-[48rem] lg:mb-24">
-            {whoFor.intro}
-          </p>
-          <div className="grid gap-x-6 sm:grid-cols-2 lg:grid-cols-5">
-            {whoFor.items.map((it, i) => (
-              <div key={it} data-reveal data-delay={String(i * 0.06)} className="border-t border-lime/20 pt-5 pb-10">
-                <p className="t-label mb-8 text-lime/60">{idx(i)}</p>
-                <p className="t-h3">{it}</p>
-              </div>
-            ))}
+        <div className="grid lg:grid-cols-12">
+          <div className="relative min-h-[60vw] lg:col-span-5 lg:min-h-0">
+            <Media img={{ src: "/images/imageE.jpeg", alt: "Commercial soft landscaping and planting project in Hertfordshire" }} ratio="fill" sizes="(min-width: 1024px) 42vw, 100vw" />
           </div>
+          <div className="gutter py-16 lg:col-span-7 lg:py-24 lg:pl-16">
+            <Label dark>{whoFor.h2}</Label>
+            <p data-reveal className="t-h3 mb-8 max-w-[40rem]">
+              {whoFor.intro}
+            </p>
+            <ul className="border-b border-lime/15">
+              {whoFor.items.map((it, i) => (
+                <li key={it} data-reveal data-delay={String(i * 0.05)} className="flex items-baseline gap-6 border-t border-lime/15 py-4">
+                  <span className="t-label w-10 shrink-0 text-lime/60">{idx(i)}</span>
+                  <span className="t-body text-[1.15rem]">{it}</span>
+                </li>
+              ))}
+            </ul>
 
-          <div className="mt-20 grid gap-10 lg:mt-32 lg:grid-cols-12 lg:gap-6">
-            <h2 data-reveal className="t-hero lg:col-span-5">
+            <h2 data-reveal className="t-h2 mt-14 mb-6">
               Where we <span className="accent">work</span>
             </h2>
-            <div className="space-y-6 lg:col-span-6 lg:col-start-7">
+            <div className="space-y-5">
               {whereWork.body.map((p) => (
-                <p key={p.slice(0, 20)} data-reveal className="t-body text-lime/85">
+                <p key={p.slice(0, 20)} data-reveal className="t-body max-w-[40rem] text-lime/85">
                   {p}
                 </p>
               ))}
@@ -158,41 +131,29 @@ export default function HomePage() {
         </div>
       </section>
 
-      <Showcase />
-
       {/* Clients */}
       <section data-theme="light" className="bg-white">
-        <div className="gutter py-24 lg:py-36">
+        <div className="gutter pt-16 pb-10 lg:pt-24 lg:pb-14">
           <h2 data-reveal className="t-hero max-w-[60rem]">
             {clients.lead} <span className="accent">{clients.accent}</span>
           </h2>
-          <div className="mt-16 grid gap-12 lg:mt-24 lg:grid-cols-12 lg:gap-6">
-            <div className="lg:col-span-5">
-              <p data-reveal className="t-body mb-8 text-forest/75">
-                {clients.intro}
-              </p>
-              <ul className="border-b border-forest/15">
-                {clients.items.map((c, i) => (
-                  <li key={c} data-reveal className="flex items-baseline gap-6 border-t border-forest/15 py-4">
-                    <span className="t-label w-10 text-leaf">{idx(i)}</span>
-                    <span className="t-h3">{c}</span>
-                  </li>
-                ))}
-              </ul>
-              <p data-reveal className="t-body mt-8 text-forest/75">
-                {clients.outro}
-              </p>
-            </div>
-            <div data-reveal className="lg:col-span-6 lg:col-start-7">
-              <Image src="/images/client-logos.png" alt={clients.logosAlt} width={1108} height={963} className="h-auto w-full" />
-            </div>
+          <div className="mt-8 grid gap-6 lg:grid-cols-12">
+            <p data-reveal className="t-body text-forest/75 lg:col-span-6">
+              {clients.intro} {clients.items.join(", ")}.
+            </p>
+            <p data-reveal className="t-body text-forest/75 lg:col-span-5 lg:col-start-8">
+              {clients.outro}
+            </p>
           </div>
+        </div>
+        <div data-reveal className="pb-16 lg:pb-24">
+          <LogoMarquee />
         </div>
       </section>
 
       {/* Accreditations */}
       <section data-theme="light" className="bg-white">
-        <div className="gutter pb-24 lg:pb-36">
+        <div className="gutter pb-16 lg:pb-24">
           <Label>{accreditations.h2}</Label>
           <div className="grid gap-12 lg:grid-cols-12 lg:gap-6">
             <div className="lg:col-span-4">

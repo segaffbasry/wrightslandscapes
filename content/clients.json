@@ -1,0 +1,146 @@
+[
+ {
+  "name": "Taylor Wimpey",
+  "src": "/images/clients/01.png",
+  "w": 225,
+  "h": 105
+ },
+ {
+  "name": "The Hill Group",
+  "src": "/images/clients/02.png",
+  "w": 224,
+  "h": 73
+ },
+ {
+  "name": "Fairview New Homes",
+  "src": "/images/clients/03.png",
+  "w": 220,
+  "h": 78
+ },
+ {
+  "name": "Croudace Homes",
+  "src": "/images/clients/04.png",
+  "w": 258,
+  "h": 25
+ },
+ {
+  "name": "Flynn",
+  "src": "/images/clients/05.png",
+  "w": 208,
+  "h": 71
+ },
+ {
+  "name": "Conamar",
+  "src": "/images/clients/06.png",
+  "w": 203,
+  "h": 79
+ },
+ {
+  "name": "Neilcott",
+  "src": "/images/clients/07.png",
+  "w": 194,
+  "h": 120
+ },
+ {
+  "name": "Newbourne Homes",
+  "src": "/images/clients/08.png",
+  "w": 174,
+  "h": 53
+ },
+ {
+  "name": "Quinn",
+  "src": "/images/clients/09.png",
+  "w": 124,
+  "h": 138
+ },
+ {
+  "name": "T&B",
+  "src": "/images/clients/10.png",
+  "w": 211,
+  "h": 98
+ },
+ {
+  "name": "Astrum Homes",
+  "src": "/images/clients/11.png",
+  "w": 177,
+  "h": 92
+ },
+ {
+  "name": "C&W",
+  "src": "/images/clients/12.png",
+  "w": 154,
+  "h": 138
+ },
+ {
+  "name": "RJ O'Neill",
+  "src": "/images/clients/13.png",
+  "w": 206,
+  "h": 117
+ },
+ {
+  "name": "Bowmer + Kirkland",
+  "src": "/images/clients/14.png",
+  "w": 202,
+  "h": 65
+ },
+ {
+  "name": "Lawtech",
+  "src": "/images/clients/15.png",
+  "w": 220,
+  "h": 68
+ },
+ {
+  "name": "FormFive",
+  "src": "/images/clients/16.png",
+  "w": 245,
+  "h": 85
+ },
+ {
+  "name": "Riney",
+  "src": "/images/clients/17.png",
+  "w": 231,
+  "h": 46
+ },
+ {
+  "name": "Buxton",
+  "src": "/images/clients/18.png",
+  "w": 265,
+  "h": 77
+ },
+ {
+  "name": "Williams",
+  "src": "/images/clients/19.png",
+  "w": 244,
+  "h": 50
+ },
+ {
+  "name": "Frencon",
+  "src": "/images/clients/20.png",
+  "w": 251,
+  "h": 70
+ },
+ {
+  "name": "Parrott Construction",
+  "src": "/images/clients/21.png",
+  "w": 182,
+  "h": 59
+ },
+ {
+  "name": "London Square",
+  "src": "/images/clients/22.png",
+  "w": 125,
+  "h": 219
+ },
+ {
+  "name": "Cottier Contracting",
+  "src": "/images/clients/23.png",
+  "w": 178,
+  "h": 116
+ },
+ {
+  "name": "RED Construction",
+  "src": "/images/clients/24.png",
+  "w": 230,
+  "h": 230
+ }
+]

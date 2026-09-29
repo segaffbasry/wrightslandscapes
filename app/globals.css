@@ -155,3 +155,26 @@ summary,
 label[for] {
   cursor: pointer;
 }
+
+/* Marquees (hero filmstrip, client logos): two copies of the track, shifted by half. */
+@keyframes marquee {
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+.marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee var(--marquee-speed, 60s) linear infinite;
+}
+.marquee[data-reverse] {
+  animation-direction: reverse;
+}
+.marquee-wrap:hover .marquee {
+  animation-play-state: paused;
+}
+@media (prefers-reduced-motion: reduce) {
+  .marquee {
+    animation: none;
+  }
+}

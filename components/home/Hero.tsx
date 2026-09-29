@@ -2,13 +2,15 @@
 
 import { useEffect, useRef } from "react";
 import { gsap, prefersReducedMotion } from "@/lib/gsap";
-import { home } from "@/lib/content";
+import Image from "next/image";
 import PillButton from "../PillButton";
 
 /* The one place heavy motion is earned: the headline lines rise out of masks on load. */
-export default function Hero() {
+type Frame = { src: string; alt: string; ratio: number };
+
+export default function Hero({ h1, tag, strip }: { h1: string; tag: string; strip: Frame[] }) {
   const root = useRef<HTMLElement>(null);
-  const [first, rest] = home.h1.split(" soft landscaping ");
+  const [first, rest] = h1.split(" soft landscaping ");
 
   useEffect(() => {
     const el = root.current;
@@ -23,7 +25,7 @@ export default function Hero() {
 
   return (
     <section ref={root} data-theme="dark" className="bg-forest text-lime">
-      <div className="gutter flex min-h-[76svh] flex-col items-center justify-center pt-32 pb-20 text-center">
+      <div className="gutter flex min-h-[62svh] flex-col items-center justify-center pt-32 pb-14 text-center">
         <h1 className="t-hero max-w-[72rem]">
           <span data-hero-line className="line-mask">
             <span>
@@ -35,13 +37,31 @@ export default function Hero() {
           </span>
         </h1>
         <p data-hero-fade className="t-body mt-8 max-w-[24rem] text-lime/85">
-          {home.tag}
+          {tag}
         </p>
         <div data-hero-fade className="mt-10 flex flex-wrap justify-center gap-3">
           <PillButton href="/contact">Get in touch</PillButton>
           <PillButton href="/projects" variant="glass">
             Projects
           </PillButton>
+        </div>
+      </div>
+
+      {/* Filmstrip of the live site's project photos, drifting under the headline. */}
+      <div data-hero-fade className="marquee-wrap overflow-hidden pb-10">
+        <div className="marquee h-[clamp(200px,34svh,340px)]" style={{ ["--marquee-speed" as string]: "90s" }}>
+          {[...strip, ...strip].map((img, i) => {
+            return (
+              <div
+                key={i}
+                aria-hidden={i >= strip.length || undefined}
+                className="relative mr-3 h-full shrink-0 overflow-hidden rounded-[4px] bg-lime/10 lg:mr-4"
+                style={{ aspectRatio: img.ratio }}
+              >
+                <Image src={img.src} alt={i >= strip.length ? "" : img.alt} fill sizes="40vw" className="object-cover" />
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>
